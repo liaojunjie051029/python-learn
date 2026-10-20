@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 环境变量
+.env
+.env.*
+!.env.example
+
+# 编辑器
+.vscode/
+.idea/
+
+# 运行时/测试数据
+agent_state.json
+http_data.json
+agent_state_test.json
+
+# 操作系统
+.DS_Store
+Thumbs.db
